@@ -10,28 +10,35 @@
         /* The sidebar menu */
         .sidenav {
             height: 100%; /* Full-height: remove this if you want "auto" height */
-            width: 160px; /* Set the width of the sidebar */
+            width: 190px; /* Set the width of the sidebar */
             position: fixed; /* Fixed Sidebar (stay in place on scroll) */
             z-index: 1; /* Stay on top */
             top: 0; /* Stay at the top */
             left: 0;
-            background-color: #eee; /* Black */
+            background-color: #005a88; /* Black */
             overflow-x: hidden; /* Disable horizontal scroll */
-            padding-top: 20px;
+            padding-top: 10px;
+
+
         }
 
         /* The navigation menu links */
         .sidenav a {
-            padding: 6px 8px 6px 16px;
+            padding: 5px 30px 5px 10px;
             text-decoration: none;
-            font-size: 25px;
-            color: #818181;
+            font-size: 18px;
+            color: #656565;
             display: block;
+            width: 100%;
+            margin: 5px 20px 5px 5px;
+
+
         }
 
         /* When you mouse over the navigation links, change their color */
         .sidenav a:hover {
             color: #f1f1f1;
+            background: #005a88;
         }
 
         /* Style page content */
@@ -46,8 +53,9 @@
             .sidenav a {font-size: 18px;}
         }
         .accordion {
-            background-color: #eee;
-            color: #444;
+            background-color: #005a88;
+            color: white;
+            font-family: "Roboto", Arial, sans-serif, Helvetica;
             cursor: pointer;
             padding: 18px;
             width: 100%;
@@ -55,25 +63,34 @@
             border: none;
             outline: none;
             transition: 0.4s;
+            font-size: 22px;
         }
 
         /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
         .active, .accordion:hover {
-            background-color: #ccc;
+            background-color: #006d9c;
+
         }
+
 
         /* Style the accordion panel. Note: hidden by default */
         .panel {
-            padding: 0 18px;
-            background-color: white;
+            padding: 10px 20px 10px 15px;
+            background-color: #e1e1e1;
             display: none;
             overflow: hidden;
+            font-family: "Roboto", Arial, sans-serif, Helvetica;
         }
+        /*.panel div:hover{*/
+            /*background:#005a88;*/
+            /*color: white;*/
+        /*}*/
     </style>
 </head>
 <body>
 
 <div id="mySidenav" class="sidenav">
+
     <button class="accordion">*Franquicias</button>
     <div class="panel">
         <a href="../GestiondeFranquicias/principal_gestion_franquicias.php">Franquicias</a>
