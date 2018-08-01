@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 150vh;
+    flex-wrap: wrap;
+
+}
+.navbar{
+    background: #004773;
+    font-family: Arial;
+    height: 65px;
+    padding: 8px 10px ;
+    width: 100%;
+    position: fixed;
+}
+
+div img{
+    margin-top: -21px;
+    margin-left: -25px;
+    margin-right: 5rem;
+}
+
+
+
+.navbar ul{
+
+    width: 100%;
+    list-style-type: none;
+    margin: -3px;
+    padding: 15px;
+    display: inline-flex;
+
+
+
+}
+
+
+
+.navbar ul li{
+    /*margin: 5px;*/
+    padding-left: 50px;
+    padding-right: 10px;
+    background: transparent;
+    margin-top: 0;
+}
+
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    /*font-family: Arial;*/
+    /*height: 100%;*/
+    display: inline-block;
+    text-align: center;
+    /*height: 70px;*/
+    padding: 20px 10px 10px 15px;
+
+}
+
+.navbar ul li a:hover{
+    /*background: #006796;*/
+    color: #c8c8c8;
+
+}
+
+
+/*.lcl-box{*/
+    /*display: flex;*/
+/*}*/
+
+
+.lcl-box {
+    padding: 15px;
+    margin: 20px auto 0 auto;
+    align-items: center;
+    /*margin-top: 35px;*/
+    /*margin-left: 25px;*/
+
+}
+
+
+.lcl-box a {
+    display: inline-block;
+    background: #004773;
+    font-family: Arial;
+
+    align-self: center;
+
+    border-radius: 5px;
+
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 3px;
+
+
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+.lcl-box a:hover{
+    background:#dadada ;
+
+    color: #004773;
+
+}
+
+
+
+.add-city {
+    display: inline-block;
+    align-self: center;
+    /*margin-left: -136px;*/
+    /*margin-top: 258px;*/
+    /*width: 125px;*/
+    /*height: 42px;*/
+    font-family: Arial;
+    background: #004773;
+    /*font-family: Arial;*/
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+    text-decoration: none;
+    text-align: center;
+    /*margin-top: 17px;*/
+    border-radius: 3px;
+    color: white;
+    padding: 20px;
+}
+
+
+
+.add-city:hover{
+    /*background: #007fa3;*/
+    box-shadow: 0.4px 0.4px 0.4px darkgray;
+
+    background:#dadada ;
+    color: #004773;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    color: #005f81;
+
+    background: #bfbfbf;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    align-self: flex-end;
+    margin-top: 20px;
+
+
+}
+
+.footer a{
+    display: inline-block;
+    margin-top: -25rem;
+    margin-left: 75px;
+    font-family: Arial;
+
+}
+
+
+.icon-social{
+    display:inline-block;
+    /*align-self: right;*/
+    margin-left:125px;
+    height: 40px;
+    margin-top: 28px;
+
+
+}
+
+
